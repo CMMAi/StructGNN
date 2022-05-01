@@ -1,0 +1,486 @@
+PISA3D
+C:\Users\ton73\Desktop\SeismicAnalysis\Data\Static_Linear_Analysis\structure_1406\structure.ipt
+kN
+mm
+ControlData    GeometricNL  1
+GUI_Analysis  Gravity  gravity  DL  1  ON
+Analysis  Gravity  DL  1
+GUI_GRID  XDIR  0  8000  16000  24000  32000  40000
+GUI_GRID  YDIR  0  4200  7400  10600
+GUI_GRID  ZDIR  0  8000  16000
+
+
+Node  N1 0 0 0
+Node  N2 0 0 8000
+Node  N3 0 0 16000
+Node  N4 0 4200 0
+Node  N5 0 4200 8000
+Node  N6 0 4200 16000
+Node  N7 0 7400 0
+Node  N8 0 7400 8000
+Node  N9 0 7400 16000
+Node  N10 0 10600 0
+Node  N11 0 10600 8000
+Node  N12 0 10600 16000
+Node  N13 8000 0 0
+Node  N14 8000 0 8000
+Node  N15 8000 0 16000
+Node  N16 8000 4200 0
+Node  N17 8000 4200 8000
+Node  N18 8000 4200 16000
+Node  N19 8000 7400 0
+Node  N20 8000 7400 8000
+Node  N21 8000 7400 16000
+Node  N22 8000 10600 0
+Node  N23 8000 10600 8000
+Node  N24 8000 10600 16000
+Node  N25 16000 0 0
+Node  N26 16000 0 8000
+Node  N27 16000 0 16000
+Node  N28 16000 4200 0
+Node  N29 16000 4200 8000
+Node  N30 16000 4200 16000
+Node  N31 16000 7400 0
+Node  N32 16000 7400 8000
+Node  N33 16000 7400 16000
+Node  N34 16000 10600 0
+Node  N35 16000 10600 8000
+Node  N36 16000 10600 16000
+Node  N37 24000 0 0
+Node  N38 24000 0 8000
+Node  N39 24000 0 16000
+Node  N40 24000 4200 0
+Node  N41 24000 4200 8000
+Node  N42 24000 4200 16000
+Node  N43 24000 7400 0
+Node  N44 24000 7400 8000
+Node  N45 24000 7400 16000
+Node  N46 24000 10600 0
+Node  N47 24000 10600 8000
+Node  N48 24000 10600 16000
+Node  N49 32000 0 0
+Node  N50 32000 0 8000
+Node  N51 32000 0 16000
+Node  N52 32000 4200 0
+Node  N53 32000 4200 8000
+Node  N54 32000 4200 16000
+Node  N55 32000 7400 0
+Node  N56 32000 7400 8000
+Node  N57 32000 7400 16000
+Node  N58 32000 10600 0
+Node  N59 32000 10600 8000
+Node  N60 32000 10600 16000
+Node  N61 40000 0 0
+Node  N62 40000 0 8000
+Node  N63 40000 0 16000
+Node  N64 40000 4200 0
+Node  N65 40000 4200 8000
+Node  N66 40000 4200 16000
+Node  N67 40000 7400 0
+Node  N68 40000 7400 8000
+Node  N69 40000 7400 16000
+Node  N70 40000 10600 0
+Node  N71 40000 10600 8000
+Node  N72 40000 10600 16000
+
+
+DOF  N1 -1 -1 -1 -1 -1 -1
+DOF  N2 -1 -1 -1 -1 -1 -1
+DOF  N3 -1 -1 -1 -1 -1 -1
+DOF  N13 -1 -1 -1 -1 -1 -1
+DOF  N14 -1 -1 -1 -1 -1 -1
+DOF  N15 -1 -1 -1 -1 -1 -1
+DOF  N25 -1 -1 -1 -1 -1 -1
+DOF  N26 -1 -1 -1 -1 -1 -1
+DOF  N27 -1 -1 -1 -1 -1 -1
+DOF  N37 -1 -1 -1 -1 -1 -1
+DOF  N38 -1 -1 -1 -1 -1 -1
+DOF  N39 -1 -1 -1 -1 -1 -1
+DOF  N49 -1 -1 -1 -1 -1 -1
+DOF  N50 -1 -1 -1 -1 -1 -1
+DOF  N51 -1 -1 -1 -1 -1 -1
+DOF  N61 -1 -1 -1 -1 -1 -1
+DOF  N62 -1 -1 -1 -1 -1 -1
+DOF  N63 -1 -1 -1 -1 -1 -1
+
+
+Mass  N1 0.0060909 0.0060909 0.0060909 2976188 5912745 2976188
+Mass  N2 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N3 0.0060909 0.0060909 0.0060909 2976188 5912745 2976188
+Mass  N4 0.0061920 0.0061920 0.0061920 3035345 6014452 3035345
+Mass  N5 0.0120511 0.0120511 0.0120511 6043611 11978052 5992757
+Mass  N6 0.0061920 0.0061920 0.0061920 3035345 6014452 3035345
+Mass  N7 0.0061604 0.0061604 0.0061604 3024874 6014452 3024874
+Mass  N8 0.0120195 0.0120195 0.0120195 6033139 11978052 5982286
+Mass  N9 0.0061604 0.0061604 0.0061604 3024874 6014452 3024874
+Mass  N10 0.0060593 0.0060593 0.0060593 3016569 6014452 3016569
+Mass  N11 0.0119184 0.0119184 0.0119184 6024835 11978052 5973982
+Mass  N12 0.0060593 0.0060593 0.0060593 3016569 6014452 3016569
+Mass  N13 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N14 0.0235690 0.0235690 0.0235690 11848425 23650983 11848425
+Mass  N15 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N16 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N17 0.0236702 0.0236702 0.0236702 11958436 23854397 11958436
+Mass  N18 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N19 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N20 0.0236386 0.0236386 0.0236386 11947964 23854397 11947964
+Mass  N21 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N22 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N23 0.0235374 0.0235374 0.0235374 11939660 23854397 11939660
+Mass  N24 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N25 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N26 0.0235690 0.0235690 0.0235690 11848425 23650983 11848425
+Mass  N27 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N28 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N29 0.0236702 0.0236702 0.0236702 11958436 23854397 11958436
+Mass  N30 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N31 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N32 0.0236386 0.0236386 0.0236386 11947964 23854397 11947964
+Mass  N33 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N34 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N35 0.0235374 0.0235374 0.0235374 11939660 23854397 11939660
+Mass  N36 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N37 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N38 0.0235690 0.0235690 0.0235690 11848425 23650983 11848425
+Mass  N39 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N40 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N41 0.0236702 0.0236702 0.0236702 11958436 23854397 11958436
+Mass  N42 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N43 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N44 0.0236386 0.0236386 0.0236386 11947964 23854397 11947964
+Mass  N45 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N46 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N47 0.0235374 0.0235374 0.0235374 11939660 23854397 11939660
+Mass  N48 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N49 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N50 0.0235690 0.0235690 0.0235690 11848425 23650983 11848425
+Mass  N51 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N52 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N53 0.0236702 0.0236702 0.0236702 11958436 23854397 11958436
+Mass  N54 0.0120511 0.0120511 0.0120511 5992757 11978052 6043611
+Mass  N55 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N56 0.0236386 0.0236386 0.0236386 11947964 23854397 11947964
+Mass  N57 0.0120195 0.0120195 0.0120195 5982286 11978052 6033139
+Mass  N58 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N59 0.0235374 0.0235374 0.0235374 11939660 23854397 11939660
+Mass  N60 0.0119184 0.0119184 0.0119184 5973982 11978052 6024835
+Mass  N61 0.0060909 0.0060909 0.0060909 2976188 5912745 2976188
+Mass  N62 0.0119500 0.0119500 0.0119500 5933600 11825491 5933600
+Mass  N63 0.0060909 0.0060909 0.0060909 2976188 5912745 2976188
+Mass  N64 0.0061920 0.0061920 0.0061920 3035345 6014452 3035345
+Mass  N65 0.0120511 0.0120511 0.0120511 6043611 11978052 5992757
+Mass  N66 0.0061920 0.0061920 0.0061920 3035345 6014452 3035345
+Mass  N67 0.0061604 0.0061604 0.0061604 3024874 6014452 3024874
+Mass  N68 0.0120195 0.0120195 0.0120195 6033139 11978052 5982286
+Mass  N69 0.0061604 0.0061604 0.0061604 3024874 6014452 3024874
+Mass  N70 0.0060593 0.0060593 0.0060593 3016569 6014452 3016569
+Mass  N71 0.0119184 0.0119184 0.0119184 6024835 11978052 5973982
+Mass  N72 0.0060593 0.0060593 0.0060593 3016569 6014452 3016569
+
+
+LoadPattern  NodalLoad  DL N1 0.00 -59.75 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N1 0.00 -59.75 0.00 0 0 0
+LoadPattern  NodalLoad  DL N2 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N2 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N3 0.00 -59.75 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N3 0.00 -59.75 0.00 0 0 0
+LoadPattern  NodalLoad  DL N4 0.00 -60.74 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N4 0.00 -60.74 0.00 0 0 0
+LoadPattern  NodalLoad  DL N5 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N5 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N6 0.00 -60.74 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N6 0.00 -60.74 0.00 0 0 0
+LoadPattern  NodalLoad  DL N7 0.00 -60.43 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N7 0.00 -60.43 0.00 0 0 0
+LoadPattern  NodalLoad  DL N8 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N8 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N9 0.00 -60.43 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N9 0.00 -60.43 0.00 0 0 0
+LoadPattern  NodalLoad  DL N10 100.00 -59.44 70.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N10 100.00 -59.44 70.00 0 0 0
+LoadPattern  NodalLoad  DL N11 100.00 -116.92 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N11 100.00 -116.92 0.00 0 0 0
+LoadPattern  NodalLoad  DL N12 100.00 -59.44 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N12 100.00 -59.44 0.00 0 0 0
+LoadPattern  NodalLoad  DL N13 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N13 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N14 0.00 -231.21 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N14 0.00 -231.21 0.00 0 0 0
+LoadPattern  NodalLoad  DL N15 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N15 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N16 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N16 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N17 0.00 -232.20 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N17 0.00 -232.20 0.00 0 0 0
+LoadPattern  NodalLoad  DL N18 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N18 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N19 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N19 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N20 0.00 -231.89 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N20 0.00 -231.89 0.00 0 0 0
+LoadPattern  NodalLoad  DL N21 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N21 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N22 0.00 -116.92 70.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N22 0.00 -116.92 70.00 0 0 0
+LoadPattern  NodalLoad  DL N23 0.00 -230.90 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N23 0.00 -230.90 0.00 0 0 0
+LoadPattern  NodalLoad  DL N24 0.00 -116.92 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N24 0.00 -116.92 0.00 0 0 0
+LoadPattern  NodalLoad  DL N25 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N25 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N26 0.00 -231.21 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N26 0.00 -231.21 0.00 0 0 0
+LoadPattern  NodalLoad  DL N27 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N27 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N28 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N28 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N29 0.00 -232.20 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N29 0.00 -232.20 0.00 0 0 0
+LoadPattern  NodalLoad  DL N30 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N30 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N31 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N31 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N32 0.00 -231.89 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N32 0.00 -231.89 0.00 0 0 0
+LoadPattern  NodalLoad  DL N33 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N33 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N34 0.00 -116.92 70.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N34 0.00 -116.92 70.00 0 0 0
+LoadPattern  NodalLoad  DL N35 0.00 -230.90 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N35 0.00 -230.90 0.00 0 0 0
+LoadPattern  NodalLoad  DL N36 0.00 -116.92 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N36 0.00 -116.92 0.00 0 0 0
+LoadPattern  NodalLoad  DL N37 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N37 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N38 0.00 -231.21 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N38 0.00 -231.21 0.00 0 0 0
+LoadPattern  NodalLoad  DL N39 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N39 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N40 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N40 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N41 0.00 -232.20 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N41 0.00 -232.20 0.00 0 0 0
+LoadPattern  NodalLoad  DL N42 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N42 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N43 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N43 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N44 0.00 -231.89 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N44 0.00 -231.89 0.00 0 0 0
+LoadPattern  NodalLoad  DL N45 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N45 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N46 0.00 -116.92 70.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N46 0.00 -116.92 70.00 0 0 0
+LoadPattern  NodalLoad  DL N47 0.00 -230.90 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N47 0.00 -230.90 0.00 0 0 0
+LoadPattern  NodalLoad  DL N48 0.00 -116.92 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N48 0.00 -116.92 0.00 0 0 0
+LoadPattern  NodalLoad  DL N49 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N49 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N50 0.00 -231.21 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N50 0.00 -231.21 0.00 0 0 0
+LoadPattern  NodalLoad  DL N51 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N51 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N52 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N52 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N53 0.00 -232.20 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N53 0.00 -232.20 0.00 0 0 0
+LoadPattern  NodalLoad  DL N54 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N54 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N55 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N55 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N56 0.00 -231.89 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N56 0.00 -231.89 0.00 0 0 0
+LoadPattern  NodalLoad  DL N57 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N57 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N58 0.00 -116.92 70.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N58 0.00 -116.92 70.00 0 0 0
+LoadPattern  NodalLoad  DL N59 0.00 -230.90 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N59 0.00 -230.90 0.00 0 0 0
+LoadPattern  NodalLoad  DL N60 0.00 -116.92 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N60 0.00 -116.92 0.00 0 0 0
+LoadPattern  NodalLoad  DL N61 0.00 -59.75 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N61 0.00 -59.75 0.00 0 0 0
+LoadPattern  NodalLoad  DL N62 0.00 -117.23 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N62 0.00 -117.23 0.00 0 0 0
+LoadPattern  NodalLoad  DL N63 0.00 -59.75 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N63 0.00 -59.75 0.00 0 0 0
+LoadPattern  NodalLoad  DL N64 0.00 -60.74 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N64 0.00 -60.74 0.00 0 0 0
+LoadPattern  NodalLoad  DL N65 0.00 -118.22 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N65 0.00 -118.22 0.00 0 0 0
+LoadPattern  NodalLoad  DL N66 0.00 -60.74 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N66 0.00 -60.74 0.00 0 0 0
+LoadPattern  NodalLoad  DL N67 0.00 -60.43 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N67 0.00 -60.43 0.00 0 0 0
+LoadPattern  NodalLoad  DL N68 0.00 -117.91 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N68 0.00 -117.91 0.00 0 0 0
+LoadPattern  NodalLoad  DL N69 0.00 -60.43 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N69 0.00 -60.43 0.00 0 0 0
+LoadPattern  NodalLoad  DL N70 0.00 -59.44 70.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N70 0.00 -59.44 70.00 0 0 0
+LoadPattern  NodalLoad  DL N71 0.00 -116.92 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N71 0.00 -116.92 0.00 0 0 0
+LoadPattern  NodalLoad  DL N72 0.00 -59.44 0.00 0 0 0
+GUI_LoadPattern  NodalLoad  DL N72 0.00 -59.44 0.00 0 0 0
+
+
+Element  BeamColumn   E1 N4 N16 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E2 N16 N28 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E3 N28 N40 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E4 N40 N52 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E5 N52 N64 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E6 N5 N17 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E7 N17 N29 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E8 N29 N41 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E9 N41 N53 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E10 N53 N65 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E11 N6 N18 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E12 N18 N30 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E13 N30 N42 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E14 N42 N54 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E15 N54 N66 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E16 N7 N19 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E17 N19 N31 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E18 N31 N43 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E19 N43 N55 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E20 N55 N67 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E21 N8 N20 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E22 N20 N32 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E23 N32 N44 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E24 N44 N56 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E25 N56 N68 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E26 N9 N21 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E27 N21 N33 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E28 N33 N45 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E29 N45 N57 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E30 N57 N69 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E31 N10 N22 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E32 N22 N34 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E33 N34 N46 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E34 N46 N58 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E35 N58 N70 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E36 N11 N23 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E37 N23 N35 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E38 N35 N47 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E39 N47 N59 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E40 N59 N71 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E41 N12 N24 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E42 N24 N36 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E43 N36 N48 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E44 N48 N60 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E45 N60 N72 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E46 N4 N5 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E47 N5 N6 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E48 N16 N17 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E49 N17 N18 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E50 N28 N29 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E51 N29 N30 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E52 N40 N41 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E53 N41 N42 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E54 N52 N53 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E55 N53 N54 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E56 N64 N65 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E57 N65 N66 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E58 N7 N8 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E59 N8 N9 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E60 N19 N20 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E61 N20 N21 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E62 N31 N32 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E63 N32 N33 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E64 N43 N44 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E65 N44 N45 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E66 N55 N56 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E67 N56 N57 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E68 N67 N68 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E69 N68 N69 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E70 N10 N11 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E71 N11 N12 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E72 N22 N23 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E73 N23 N24 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E74 N34 N35 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E75 N35 N36 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E76 N46 N47 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E77 N47 N48 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E78 N58 N59 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E79 N59 N60 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E80 N70 N71 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E81 N71 N72 beam_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E82 N1 N4 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E83 N4 N7 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E84 N7 N10 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E85 N2 N5 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E86 N5 N8 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E87 N8 N11 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E88 N3 N6 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E89 N6 N9 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E90 N9 N12 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E91 N13 N16 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E92 N16 N19 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E93 N19 N22 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E94 N14 N17 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E95 N17 N20 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E96 N20 N23 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E97 N15 N18 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E98 N18 N21 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E99 N21 N24 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E100 N25 N28 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E101 N28 N31 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E102 N31 N34 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E103 N26 N29 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E104 N29 N32 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E105 N32 N35 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E106 N27 N30 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E107 N30 N33 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E108 N33 N36 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E109 N37 N40 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E110 N40 N43 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E111 N43 N46 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E112 N38 N41 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E113 N41 N44 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E114 N44 N47 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E115 N39 N42 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E116 N42 N45 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E117 N45 N48 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E118 N49 N52 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E119 N52 N55 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E120 N55 N58 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E121 N50 N53 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E122 N53 N56 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E123 N56 N59 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E124 N51 N54 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E125 N54 N57 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E126 N57 N60 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E127 N61 N64 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E128 N64 N67 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E129 N67 N70 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E130 N62 N65 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E131 N65 N68 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E132 N68 N71 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E133 N63 N66 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E134 N66 N69 column_section 0 0 1  0 0 0  0  0
+Element  BeamColumn   E135 N69 N72 column_section 0 0 1  0 0 0  0  0
+
+
+% MATERIAL DATA %
+Material  Elastic steel_beam 2000 0.3
+Material  Elastic steel_column 200 0.3
+
+
+% SECTION DATA %
+GUI_Section I_SHAPE_SECTION beam_section steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam 0 200 100 9.65 6.35 100 9.65 
+GUI_SECTION_PROPERTY_FACTOR beam_section 1 1 1 1 1 1 1 1 
+GUI_SECTION_DISPLAY_COLOR beam_section 1  0.501961  0  
+Section  BCSection03 beam_section steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam steel_beam 0 3077.45 2.06197e+07 1.61219e+06 71347.9 206197 32243.8 1270 1608.33 
+
+GUI_Section BOX_SECTION column_section steel_column steel_column steel_column steel_column steel_column steel_column steel_column steel_column steel_column 0 200 200 10.35 10.35 
+GUI_SECTION_PROPERTY_FACTOR column_section 1 1 1 1 1 1 1 1 
+GUI_SECTION_DISPLAY_COLOR column_section 1  0  1  
+Section  BCSection03 column_section steel_column steel_column steel_column steel_column steel_column steel_column steel_column steel_column steel_column 0 7851.51 4.72062e+07 4.72062e+07 7.05991e+07 472062 472062 4140 4140 
+
+
+GUI_LoadCase  GUI_AREA_LOAD_DL  DL
+GUI_AREA_LOAD_ASSIGNED_TYPE  BY_BEAN_SPAN_LOAD
+GUI_Output  OutFlag  1  1  0  1  1  1  1
+Output  OutFlag  1  1  0  1  1  1  1
+% RESPONSE HISTORY %
+STOP
