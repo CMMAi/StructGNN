@@ -1,2 +1,2 @@
-# Structural-Analysis-with-Graph-Neural-Network
-Structural Analysis with Graph Neural Network
+# Structural-Analysis-with-Graph-Neural-Networks
+Structural Analysis with Graph Neural Networks
