@@ -1,10 +1,14 @@
-# Structural-Analysis-with-Graph-Neural-Networks
+# StructGNN: An Efficient Graph Neural Network Framework for Static Structural Analysis
 
-In this paper, a rapid surrogate is developed for structural analysis using graph neural networks. A novel and compact graph representation conforming to the structural connectivities is proposed. Graph neural networks (GNN) and message-passing mechanisms are utilized to handle the interactions between stories and structural elements. A structural graph neural network (StructGNN) framework is developed, which contains a dynamic number of message-passing layers. The rigid slab constraint is embodied within the message-passing layers, making message propagation more efficient and realistic. After training with random-shaped structures and random-valued lateral forces, the StructGNN model accurately predicts the distribution of forces and deformations and exhibits high generalizability to taller, unseen structures. With high interpretability in its message-passing mechanism and high-speed computation with GPU parallelism, StructGNN is a fast alternative to traditional structural analysis. It has a high potential to solve more complex structural engineering problems.
+_Authors: Yuan-Tung Chou, Wei-Tze Chang, Jimmy G. Jean, Kai-Hung Chang, Yin-Nan Huang, Chuin-Shan Chen_
+
+In the field of structural analysis prediction via supervised learning, neural networks are widely employed. Recent advances in graph neural networks (GNNs) have expanded their capabilities, enabling the prediction of structures with diverse geometries by utilizing graph representations and GNNs’ message-passing mechanism. However, conventional message-passing in GNNs doesn’t align with structural properties, resulting in inefficient computation and limited generalization to extrapolated datasets. To address this, a novel structural graph representation, incorporating pseudo nodes as rigid diaphragms in each story, alongside an efficient GNN framework called StructGNN is proposed. StructGNN employs an adaptive message-passing mechanism tailored to the structure’s story count, enabling seamless transmission of input loading features across the structural graph. Extensive experiments validate the effectiveness of this approach, achieving over 99% accuracy in predicting displacements, bending moments, and shear forces. StructGNN also exhibits strong generalization over non-GNN models, with an average accuracy of 96% on taller, unseen structures. These results highlight StructGNN’s potential as a reliable, computationally efficient tool for static structural response prediction, offering promise for addressing challenges associated with dynamic seismic loads in structural analysis.
+
+Keywords: deep learning, graph neural network, graph representation, structural analysis
 
 
 ### Data
-The data includes 2000 linear static analysis responses for 2-6 story structures and 500 linear static analysis responses for 7-9 story structures. Each analysis data is packaged as a `graph.pt` where the structure geometries and responses for each node are saved in this pytorch object.
+The data includes 2000 linear static analysis responses for 2-6 story structures and 500 linear static analysis responses for 7-9 story structures. Each analysis data is packaged as a `graph.pt` where the structure geometries and responses for each node are saved in this PyTorch object.
 ![linear static analysis data](figures/generated_structures.png)
 
 
@@ -21,4 +25,7 @@ We further visualized the node embedding propagation in each stage of the messag
 
 By using the dynamic number of message-passing layers, the features of the external forces can be propagated to the entire structure properly, making it even generalizable on taller, unseen structures.
 ![customized number propagation](figures/customized_propagation.png)
+
+### Citation
+Y-T Chou, W-T Chang, JG Jean, K-H Chang, Y-N Huang, C-S Chen (2024), "StructGNN: an efficient graph neural network framework for static structural analysis," Computers and Structures, accepted. (IF 4.7 (2022), ENGINEERING, CIVIL 26/139, COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS 35/110).
 
